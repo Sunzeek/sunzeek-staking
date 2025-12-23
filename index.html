@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SUNZEEK Staking</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.7.0/dist/ethers.min.js"></script>
+</head>
+<body>
 
+<div class="card">
+  <h1>SUNZEEK (SUNZ) Staking</h1>
+  <button onclick="connectWallet()">Connect Wallet</button>
+
+  <input id="amount" placeholder="Enter SUNZ amount">
+  <p>Lock: 30 Days | Reward: 1%</p>
+
+  <button onclick="stake()">STAKE</button>
+  <button onclick="claim()">CLAIM</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
